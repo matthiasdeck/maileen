@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.github.matthiasdeck.maileen
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [app-name, asciidoctor, cache-caffeine, control-panel, graalvm, http-client-test, jackson-databind, java, java-application, jax-rs, junit, lombok, management, maven, maven-enforcer-plugin, micrometer, micrometer-annotation, micrometer-prometheus, micronaut-aot, micronaut-http-validation, netty-server, openapi, problem-json, readme, serialization-jackson, shade, slf4j-simple, swagger-ui, toml, toml-build]

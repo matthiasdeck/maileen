@@ -1,0 +1,17 @@
+
+[micronaut]
+application.name = 'maileen'
+metrics.enabled = true
+
+[micronaut.metrics.export.prometheus]
+enabled = true
+descriptions = true
+step = 'PT1M'
+
+[micronaut.router.static-resources.swagger]
+paths = 'classpath:META-INF/swagger'
+mapping = '/swagger/**'
+
+[micronaut.router.static-resources.swagger-ui]
+paths = 'classpath:META-INF/swagger/views/swagger-ui'
+mapping = '/swagger-ui/**'
